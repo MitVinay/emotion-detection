@@ -10,8 +10,8 @@ from nltk.stem import SnowballStemmer, WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 import yaml
 import logging
-# Transform the data
 
+# Transform the data
 nltk.download('wordnet')
 nltk.download('stopwords')
 
